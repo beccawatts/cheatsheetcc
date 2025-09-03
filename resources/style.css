@@ -115,6 +115,10 @@ strong {
     font-style: italic;
 }
 
+a {
+    text-decoration: none;
+}
+
 .center {
     text-align: center;
 }
