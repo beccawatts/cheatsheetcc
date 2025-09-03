@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Cheat Sheet</title>
+        <link href="resources/style.css" rel="stylesheet"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+    <!-- Title -->
+        <div class="title wave-container">
+            <h1 class="wave-text center">
+                <span>p</span>
+                <span>o</span>
+                <span>s</span>
+                <span>i</span>
+                <span>t</span>
+                <span>i</span>
+                <span>o</span> 
+                <span>n</span>
+                <span>s</span>
+            </h1>
+        </div>
+
+    <!--Introduction -->
+        <div class="intro in">
+            <h2 class="center">welcome!</h2>
+            <p class="center spacing">
+                positioning in css can be a pain to wrap your head around! i know it befuddled me at first. so, here is a concise but effective cheat sheet to help you master element positioning in css!
+            </p>
+            <p class="center spacing">&#10048;</p>
+        </div>
+
+    <!-- How to Use -->
+        <div class="instructions in">
+            <h3 class="center">using the position property</h3>
+            <p class="center">
+                actually using this property is quite easy! however, they do differ slightly. don&apos;t worry i&apos;ll show you how it&apos;s done.
+                </br>
+                </br>
+                <strong>here is a table that displays the five positions an element can take. read on to check out some examples!</strong>
+            </p>
+        </div>
+
+    <!-- Table -->
+        <div class="table in">
+            <table>
+                <thead>
+                    <th id="property-heading">Property</th>
+                    <th>Use</th>
+                </thead>
+                <tbody>
+            <!-- Static -->
+                    <tr>
+                        <td class="property">static</td>
+                        <td>
+                            this is the default state of an element. an element with this position is always positioned 
+                            according to the normal flow of the page.
+                        </td>
+                    </tr>
+                    <tr>
+                <!-- Relative -->
+                        <td class="property">relative</td>
+                        <td>
+                            an element with this position is positioned relative to its normal position in the document flow. setting top, right, 
+                            bottom, and left properties will cause the element to be adjusted away from its normal position. other content will not 
+                            be adjusted to fit.
+                        </td>
+                    </tr>
+                    <tr>
+                <!--Fixed -->
+                        <td class="property">fixed</td>
+                        <td>
+                            an element with this position is positioned relative to the viewport &mdash; this means it will 
+                            remain in the same place even during scrolling. it does not leave a gap where it would normally be located.
+                        </td>
+                    </tr>
+                    <tr>
+                <!-- Absolute -->
+                        <td class="property">absolute</td>
+                        <td>
+                        an element with this position is positioned relative to the nearest positioned ancestor &#40;with a position 
+                        other than static&#41;. however, if there are no such positioned ancestors, it uses the document body, and moves 
+                        along with page scrolling. these are removed from the normal document flow and can overlap elements.
+                        </td>
+                    </tr>
+                    <tr>
+                <!-- Sticky -->
+                        <td class="property">sticky</td>
+                        <td>
+                            an element with this position toggles between relative and fixed positioning, depending on the scroll position. 
+                            a sticky element is positioned relative until a certain scroll point is reached, in which it &quot;sticks&quot; 
+                            in that place.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    <div class="examples center">
+        <div id="static">
+            <h4>static</h4>
+        </div>
+        <div id="relative">
+            <h4>relative</h4>
+        </div>
+        <div id="fixed">
+            <h4>fixed</h4>
+        </div>
+        <div id="absolute">
+            <h4>absolute</h4>
+        </div>
+        <div id="sticky">
+            <h4>sticky</h4>
+        </div>
+    </div>
+  </body>
+</html>
