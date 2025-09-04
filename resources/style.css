@@ -110,15 +110,21 @@ tr:hover td {
 }
 
 /* Examples */
-code {
+.code {
+    font-family: 'IBM Plex Mono', Courier, monospace;
+    font-size: 15px;
     color: #9E4244;
     background-color: white;
-    padding: 20px;
+    padding: 20px 40px;
     border-radius: 15px;
+    width: 50%;
+    text-align: left;
 }
 
 .code-block {
     padding: 30px;
+    display: grid;
+    place-items: center;
 }
 
 /* General */
