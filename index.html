@@ -104,90 +104,98 @@
             </table>
         </div>
 
-    <div class="examples center">
-        <div id="static">
-            <h4>static</h4>
-            <div>
-                <p>
-                    static is the default positioning for elements on a webpage, however it is 
-                    helpful to know how to set an element's position to static in some cases &mdash; 
-                    for example, when overriding previously stated styles. 
-                    </br></br>
-                    this paragraph is static, so is the block holding the code, and the table above!
-                </p>
-                <div class="code-block">
-                    <p class="code">
-                        p {</br>
-                            &nbsp;&nbsp;position: static;</br>
-                        }
+        <div>
+            <p class="center spacing">&#10048;</p>
+        </div>
+
+        <div class="examples center">
+            <div id="static">
+                <h4>static</h4>
+                <div>
+                    <p>
+                        static is the default positioning for elements on a webpage, however it is 
+                        helpful to know how to set an element's position to static in some cases &mdash; 
+                        for example, when overriding previously stated styles. 
+                        </br></br>
+                        this paragraph is static, so is the block holding the code, and the table above!
                     </p>
+                    <div class="code-block">
+                        <p class="code">
+                            p {</br>
+                                &nbsp;&nbsp;position: static;</br>
+                            }
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="relative">
+                <h4>relative</h4>
+                <div>
+                    <p>
+                        relative positioning required the properties top, right, bottom, left to be 
+                        set, this causes the element to shift the distance set away from its 
+                        normal position. for example, if i was positioning an image and set the properties 
+                        top and left to 10px and 20px respectively, the image would be adjusted 
+                        10px from the top and 20px from the left regarding its orignal space.
+                    </p>
+                    <div class="code-block">
+                        <p class="code">
+                            p {</br>
+                                &nbsp;&nbsp;position: relative;</br>
+                                &nbsp;&nbsp;left: 50px;</br>
+                            }
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="fixed">
+                <h4>fixed</h4>
+                <div>
+                    <p>
+                        fixed positioning will remain in the same place on the page even when 
+                        scrolling. top, right, bottom, and left are used to set the final location 
+                        of an element.
+                    </p>
+                    <div class="code-block">
+                        <p class="code">
+                            p {</br>
+                                &nbsp;&nbsp;position: fixed;</br>
+                                &nbsp;&nbsp;bottom: 0;</br>
+                                &nbsp;&nbsp;top: 0;</br>
+                            }
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="absolute">
+                <h4>absolute</h4>
+                <div>
+                    <p>placeholder</p>
+                    <div class="code-block">
+                        <p class="code">
+                            p {</br>
+                                &nbsp;&nbsp;position: absolute;</br>
+                                &nbsp;&nbsp;top: 50px;</br>
+                                &nbsp;&nbsp;left: 0;</br>
+                            }
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="sticky">
+                <h4>sticky</h4>
+                <div>
+                    <p>placeholder</p>
+                    <div class="code-block">
+                        <p class="code">
+                            p {</br>
+                                &nbsp;&nbsp;position: sticky;</br>
+                                &nbsp;&nbsp;top: 0;</br>
+                            }
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div id="relative">
-            <h4>relative</h4>
-            <div>
-                <p>
-                    relative positioning required the properties top, right, bottom, left to be 
-                    set, this causes the element to shift the distance set away from its 
-                    normal position. for example, if i was positioning an image and set the properties 
-                    top and left to 10px and 20px respectively, the image would be adjusted 
-                    10px from the top and 20px from the left regarding its orignal space.
-                </p>
-                <div class="code-block">
-                    <p class="code">
-                        p {</br>
-                            &nbsp;&nbsp;position: relative;</br>
-                            &nbsp;&nbsp;left: 50px;</br>
-                        }
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div id="fixed">
-            <h4>fixed</h4>
-            <div>
-                <p>placeholder</p>
-                <div class="code-block">
-                    <p class="code">
-                        p {</br>
-                            &nbsp;&nbsp;position: fixed;</br>
-                            &nbsp;&nbsp;bottom: 0;</br>
-                            &nbsp;&nbsp;top: 0;</br>
-                        }
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div id="absolute">
-            <h4>absolute</h4>
-            <div>
-                <p>placeholder</p>
-                <div class="code-block">
-                    <p class="code">
-                        p {</br>
-                            &nbsp;&nbsp;position: absolute;</br>
-                            &nbsp;&nbsp;top: 50px;</br>
-                            &nbsp;&nbsp;left: 0;</br>
-                        }
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div id="sticky">
-            <h4>sticky</h4>
-            <div>
-                <p>placeholder</p>
-                <div class="code-block">
-                    <p class="code">
-                        p {</br>
-                            &nbsp;&nbsp;position: sticky;</br>
-                            &nbsp;&nbsp;top: 0;</br>
-                        }
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-  </body>
+    </body>
 </html>
