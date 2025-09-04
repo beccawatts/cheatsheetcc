@@ -111,7 +111,16 @@ tr:hover td {
 
 /* Examples */
 code {
-    color: white;
+    color: #9E4244;
+    background-color: white;
+    padding: 20px;
+
+
+    border: 1px solid red;
+}
+
+.code-block {
+    padding: 30px;
 }
 
 /* General */
