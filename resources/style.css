@@ -59,12 +59,6 @@ h1 {
 }
 
 /* Intro */
-p {
-    font-size: 18px;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
 h2 {
     font-size: 27px;
 }
@@ -119,15 +113,22 @@ tr:hover td {
     border-radius: 15px;
     width: 50%;
     text-align: left;
+    line-height: 30px;
 }
 
 .code-block {
-    padding: 30px;
+    padding: 10px 30px 60px;
     display: grid;
     place-items: center;
 }
 
 /* General */
+p {
+    font-size: 18px;
+    padding: 10px 15%;
+    margin-bottom: 10px;
+}
+
 strong {
     font-weight: 600;
     font-style: italic;
