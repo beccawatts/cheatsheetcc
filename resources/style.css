@@ -104,6 +104,10 @@ tr:hover td {
 }
 
 /* Examples */
+h4 {
+    font-size: 20px;
+}
+
 .code {
     font-family: 'IBM Plex Mono', Courier, monospace;
     font-size: 15px;
