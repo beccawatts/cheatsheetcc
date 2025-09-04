@@ -114,9 +114,7 @@ code {
     color: #9E4244;
     background-color: white;
     padding: 20px;
-
-
-    border: 1px solid red;
+    border-radius: 15px;
 }
 
 .code-block {
