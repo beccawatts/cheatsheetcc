@@ -109,6 +109,11 @@ tr:hover td {
     padding-right: 25px;
 }
 
+/* Examples */
+code {
+    color: white;
+}
+
 /* General */
 strong {
     font-weight: 600;
