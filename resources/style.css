@@ -93,6 +93,12 @@ th, td {
 
 .property {
     font-weight: 700;
+    text-decoration: underline;
+}
+
+.property:hover {
+    text-decoration: none;
+    cursor: pointer;
 }
 
 tr:hover td {

@@ -172,7 +172,9 @@
                 <div>
                     <p>
                         elements positioned with absolute are removed from the flow of 
-                        the document and can overlap elements.
+                        the document and can overlap elements. the properties top, right, 
+                        bottom, left are used to offset the element in relation to the 
+                        closest ancestor.
                     </p>
                     <div class="code-block">
                         <p class="code">
@@ -188,7 +190,12 @@
             <div id="sticky">
                 <h4>sticky</h4>
                 <div>
-                    <p>placeholder</p>
+                    <p>
+                        with this positioning, an element will act as though it has 
+                        been positioned with the relative property until it reaches 
+                        the point of the page it has been asigned, where it will then 
+                        &quot;stick&quot; to that position.
+                    </p>
                     <div class="code-block">
                         <p class="code">
                             p {</br>
