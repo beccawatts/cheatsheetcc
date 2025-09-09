@@ -118,18 +118,33 @@ h4 {
     font-family: 'IBM Plex Mono', Courier, monospace;
     font-size: 15px;
     color: #9E4244;
+    /*background-color: white;
+    padding: 20px 40px;
+    border-radius: 15px;
+    width: 50%;*/
+    text-align: left;
+    /*line-height: 30px;*/
+}
+
+.code-block {
+    padding: 10px 30px;
+    display: grid;
+    place-items: center;
+
+    border: 1px solid red;
+}
+
+.container {
     background-color: white;
     padding: 20px 40px;
     border-radius: 15px;
     width: 50%;
-    text-align: left;
-    line-height: 30px;
+
+    border: 1px solid red;
 }
 
-.code-block {
-    padding: 10px 30px 60px;
-    display: grid;
-    place-items: center;
+.bottom-ex {
+    margin-bottom: 60px;
 }
 
 /* General */
