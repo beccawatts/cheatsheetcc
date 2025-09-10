@@ -157,11 +157,18 @@ h4 {
     background-color: lightblue;
 }
 
+/* Relative Example*/
 .relative {
     position: relative;
     left: 50px;
     top: 20px;
 }
+
+/* Fixed Example */
+
+/* Absolute Example */
+
+/* Sticky Example */
 
 /* General */
 p {
