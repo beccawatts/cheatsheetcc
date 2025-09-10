@@ -167,6 +167,14 @@ h4 {
 /* Fixed Example */
 
 /* Absolute Example */
+.absolute {
+    position: absolute;
+    
+}
+
+.rel {
+    position: relative;
+}
 
 /* Sticky Example */
 .display {
