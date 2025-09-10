@@ -140,19 +140,17 @@ h4 {
 
 /* Example Squares */
 .square-green {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     background-color: aquamarine;
+    display: inline-block;
 }
 
 .square-pink {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     background-color: pink;
-}
-
-.relative-green {
-    position: relative;
+    display: inline-block;
 }
 
 /* General */
