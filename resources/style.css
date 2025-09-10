@@ -169,7 +169,7 @@ h4 {
 /* Absolute Example */
 .absolute {
     position: absolute;
-    
+    left: 0;
 }
 
 .rel {
