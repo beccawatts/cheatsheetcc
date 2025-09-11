@@ -141,11 +141,14 @@
                 <h4>relative</h4>
                 <div>
                     <p>
-                        relative positioning required the properties top, right, bottom, left to be 
+                        relative positioning requires the top, right, bottom, and left properties to be 
                         set, this causes the element to shift the distance set away from its 
-                        normal position. for example, if i was positioning an image and set the properties 
-                        top and left to 10px and 20px respectively, the image would be adjusted 
-                        10px from the top and 20px from the left regarding its orignal space.
+                        normal position. 
+                        </br></br>
+                        if we take the squares below for example, you can see the pink square has been 
+                        positioned 50px from the left &#40;to the right&#41; and 20px from the top 
+                        &#40;down&#41; away from it's original space &#40;refer to the static example 
+                        to view its original position&#41;.
                     </p>
                     <div class="code-block">
                         <p class="code container">
@@ -171,7 +174,14 @@
                     <p>
                         fixed positioning will remain in the same place on the page even when 
                         scrolling. top, right, bottom, and left are used to set the final location 
-                        of an element.
+                        of an element. 
+                        </br></br>
+                        it is different from the absolute positioning, as it does not respect 
+                        any parent with the relative positioning, and will instead respect 
+                        only the viewport. in the example below only, please take the white box 
+                        as a visual representation of the viewport &#40;the corners have been 
+                        adjusted square to aid in this representation&#41;. we can see that the 
+                        pink square is 0px from the top and the left. 
                     </p>
                     <div class="code-block">
                         <p class="code container">
@@ -183,9 +193,9 @@
                         </p>
                     </div>
                     <div class="code-block">
-                        <div class="container bottom-ex rel">
+                        <div class="container bottom-ex rel" id="viewport">
                         <div class="square-green dimensions">
-                            <div class="square-pink dimensions fixed"></div>
+                            <div class="square-pink dimensions fixed no-margin"></div>
                         </div>
                         <div class="square-blue dimensions"></div>
                     </div>
@@ -198,17 +208,32 @@
                     <p>
                         elements positioned with absolute are removed from the flow of 
                         the document and can overlap elements. the properties top, right, 
-                        bottom, left are used to offset the element in relation to the 
+                        bottom, and left are used to offset the element in relation to the 
                         closest ancestor.
+                        </br></br>
+                        in the example below, you can see that the pink square has been 
+                        positioned 20px from the left &#40;to the right&#41; and 10px 
+                        from the top &#40;down&#41;, relative to its parent &#40;the green 
+                        square, re: the html&#41;.
                     </p>
                     <div class="code-block">
                         <p class="code container">
-                            div {</br>
+                            <b>html</b></br>
+                            &lt;div class&equals;&quot;square-green&quot;&gt;</br>
+                            &nbsp;&nbsp;&lt;div class&equals;&quot;square-pink&quot;&gt;&lt;/div&gt;</br>
+                            &lt;/div&gt;</br>
+                            &lt;div class&equals;&quot;square-blue&quot;&gt;&lt;/div&gt;</br></br>
+                            <b>css</b></br>
+                            .square-pink &lbrace;</br>
                                 &nbsp;&nbsp;position: absolute;</br>
                                 &nbsp;&nbsp;margin: 0;</br>
                                 &nbsp;&nbsp;top: 10px;</br>
                                 &nbsp;&nbsp;left: 20px;</br>
-                            }
+                            &rbrace;
+                            </br></br>
+                            .square-green &lbrace;</br>
+                                &nbsp;&nbsp;position: relative;</br>
+                            &rbrace;
                         </p>
                     </div>
                     <div class="code-block">
@@ -229,6 +254,10 @@
                         been positioned with the relative property until it reaches 
                         the point of the page it has been asigned, where it will then 
                         &quot;stick&quot; to that position.
+                        </br></br>
+                        in the example below, you can see that the green square 
+                        &quot;sticks&quot; to the top of the page when you scroll 
+                        because it is set to stick 0px from the top when scrolling.
                     </p>
                     <div class="code-block">
                         <p class="code container">

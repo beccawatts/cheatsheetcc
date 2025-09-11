@@ -175,7 +175,22 @@ h4 {
     left: 0;
 }
 
+.no-margin {
+    margin: 0;
+}
+
+#viewport {
+    border-radius: 1px;
+}
+
 /* Absolute Example */
+b {
+    font-size: 17px;
+    background-color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 .absolute {
     position: absolute;
     margin: 0;
