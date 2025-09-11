@@ -118,13 +118,13 @@
                         helpful to know how to set an element's position to static in some cases &mdash; 
                         for example, when overriding previously stated styles. 
                         </br></br>
-                        this paragraph is static, so is the block holding the code, and the table above!
+                        this text is static, so is the block holding the code, and the table above!
                     </p>
                     <div class="code-block">
                         <p class="code container">
-                            div {</br>
+                            div &lbrace;</br>
                                 &nbsp;&nbsp;position: static;</br>
-                            }
+                            &rbrace;
                         </p>
                     </div>
                     <div class="code-block">
@@ -152,11 +152,11 @@
                     </p>
                     <div class="code-block">
                         <p class="code container">
-                            div {</br>
+                            .square-pink &lbrace;</br>
                                 &nbsp;&nbsp;position: relative;</br>
                                 &nbsp;&nbsp;left: 50px;</br>
                                 &nbsp;&nbsp;top: 20px;</br>
-                            }
+                            &rbrace;
                         </p>
                     </div>
                     <div class="code-block">
@@ -185,11 +185,11 @@
                     </p>
                     <div class="code-block">
                         <p class="code container">
-                            div {</br>
+                            .square-pink &lbrace;</br>
                                 &nbsp;&nbsp;position: fixed;</br>
                                 &nbsp;&nbsp;top: 0;</br>
                                 &nbsp;&nbsp;left: 0;</br>
-                            }
+                            &rbrace;
                         </p>
                     </div>
                     <div class="code-block">
@@ -252,7 +252,7 @@
                     <p>
                         with this positioning, an element will act as though it has 
                         been positioned with the relative property until it reaches 
-                        the point of the page it has been asigned, where it will then 
+                        the point of the page it has been assigned, where it will then 
                         &quot;stick&quot; to that position.
                         </br></br>
                         in the example below, you can see that the green square 
@@ -261,10 +261,10 @@
                     </p>
                     <div class="code-block">
                         <p class="code container">
-                            div {</br>
+                            .square-green &lbrace;</br>
                                 &nbsp;&nbsp;position: sticky;</br>
                                 &nbsp;&nbsp;top: 0;</br>
-                            }
+                            &rbrace;
                         </p>
                     </div>
                     <p>
@@ -275,9 +275,9 @@
                         <div class="square-green dimensions display sticky"></div>
                         <div class="square-pink dimensions display"></div>
                         <div class="square-blue dimensions display"></div>
-                        <div class="square-green dimensions display"></div>
                         <div class="square-pink dimensions display"></div>
                         <div class="square-blue dimensions display"></div>
+                        <div class="square-pink dimensions display"></div>
                     </div>
                 </div>
             </div>
